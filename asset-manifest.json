@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/somos_mas-ALKEMY/static/css/main.4a3a1210.css",
-    "main.js": "/somos_mas-ALKEMY/static/js/main.95a210a2.js",
+    "main.js": "/somos_mas-ALKEMY/static/js/main.3294eccc.js",
     "static/css/665.92941bc8.chunk.css": "/somos_mas-ALKEMY/static/css/665.92941bc8.chunk.css",
     "static/js/665.a332e9a4.chunk.js": "/somos_mas-ALKEMY/static/js/665.a332e9a4.chunk.js",
     "static/css/754.3ca10cb7.chunk.css": "/somos_mas-ALKEMY/static/css/754.3ca10cb7.chunk.css",
@@ -47,7 +47,7 @@
     "static/media/iconLocation.svg": "/somos_mas-ALKEMY/static/media/iconLocation.4f0fdd5bf41f1806927120c5ccba6e69.svg",
     "index.html": "/somos_mas-ALKEMY/index.html",
     "main.4a3a1210.css.map": "/somos_mas-ALKEMY/static/css/main.4a3a1210.css.map",
-    "main.95a210a2.js.map": "/somos_mas-ALKEMY/static/js/main.95a210a2.js.map",
+    "main.3294eccc.js.map": "/somos_mas-ALKEMY/static/js/main.3294eccc.js.map",
     "665.92941bc8.chunk.css.map": "/somos_mas-ALKEMY/static/css/665.92941bc8.chunk.css.map",
     "665.a332e9a4.chunk.js.map": "/somos_mas-ALKEMY/static/js/665.a332e9a4.chunk.js.map",
     "754.3ca10cb7.chunk.css.map": "/somos_mas-ALKEMY/static/css/754.3ca10cb7.chunk.css.map",
@@ -81,6 +81,6 @@
   },
   "entrypoints": [
     "static/css/main.4a3a1210.css",
-    "static/js/main.95a210a2.js"
+    "static/js/main.3294eccc.js"
   ]
 }
