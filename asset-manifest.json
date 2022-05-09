@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/somos_mas-ALKEMY/static/css/main.4a3a1210.css",
-    "main.js": "/somos_mas-ALKEMY/static/js/main.432f8434.js",
+    "main.js": "/somos_mas-ALKEMY/static/js/main.95a210a2.js",
     "static/css/665.92941bc8.chunk.css": "/somos_mas-ALKEMY/static/css/665.92941bc8.chunk.css",
     "static/js/665.a332e9a4.chunk.js": "/somos_mas-ALKEMY/static/js/665.a332e9a4.chunk.js",
     "static/css/754.3ca10cb7.chunk.css": "/somos_mas-ALKEMY/static/css/754.3ca10cb7.chunk.css",
@@ -23,8 +23,8 @@
     "static/js/202.17d298fa.chunk.js": "/somos_mas-ALKEMY/static/js/202.17d298fa.chunk.js",
     "static/css/668.18fb0a5f.chunk.css": "/somos_mas-ALKEMY/static/css/668.18fb0a5f.chunk.css",
     "static/js/668.1da8455d.chunk.js": "/somos_mas-ALKEMY/static/js/668.1da8455d.chunk.js",
-    "static/css/972.6f32d029.chunk.css": "/somos_mas-ALKEMY/static/css/972.6f32d029.chunk.css",
-    "static/js/972.fa6adb4d.chunk.js": "/somos_mas-ALKEMY/static/js/972.fa6adb4d.chunk.js",
+    "static/css/972.01a2703c.chunk.css": "/somos_mas-ALKEMY/static/css/972.01a2703c.chunk.css",
+    "static/js/972.89a1e6fd.chunk.js": "/somos_mas-ALKEMY/static/js/972.89a1e6fd.chunk.js",
     "static/js/36.e0d387d0.chunk.js": "/somos_mas-ALKEMY/static/js/36.e0d387d0.chunk.js",
     "static/js/710.5e8662f6.chunk.js": "/somos_mas-ALKEMY/static/js/710.5e8662f6.chunk.js",
     "static/js/259.66292794.chunk.js": "/somos_mas-ALKEMY/static/js/259.66292794.chunk.js",
@@ -47,7 +47,7 @@
     "static/media/iconLocation.svg": "/somos_mas-ALKEMY/static/media/iconLocation.4f0fdd5bf41f1806927120c5ccba6e69.svg",
     "index.html": "/somos_mas-ALKEMY/index.html",
     "main.4a3a1210.css.map": "/somos_mas-ALKEMY/static/css/main.4a3a1210.css.map",
-    "main.432f8434.js.map": "/somos_mas-ALKEMY/static/js/main.432f8434.js.map",
+    "main.95a210a2.js.map": "/somos_mas-ALKEMY/static/js/main.95a210a2.js.map",
     "665.92941bc8.chunk.css.map": "/somos_mas-ALKEMY/static/css/665.92941bc8.chunk.css.map",
     "665.a332e9a4.chunk.js.map": "/somos_mas-ALKEMY/static/js/665.a332e9a4.chunk.js.map",
     "754.3ca10cb7.chunk.css.map": "/somos_mas-ALKEMY/static/css/754.3ca10cb7.chunk.css.map",
@@ -69,8 +69,8 @@
     "202.17d298fa.chunk.js.map": "/somos_mas-ALKEMY/static/js/202.17d298fa.chunk.js.map",
     "668.18fb0a5f.chunk.css.map": "/somos_mas-ALKEMY/static/css/668.18fb0a5f.chunk.css.map",
     "668.1da8455d.chunk.js.map": "/somos_mas-ALKEMY/static/js/668.1da8455d.chunk.js.map",
-    "972.6f32d029.chunk.css.map": "/somos_mas-ALKEMY/static/css/972.6f32d029.chunk.css.map",
-    "972.fa6adb4d.chunk.js.map": "/somos_mas-ALKEMY/static/js/972.fa6adb4d.chunk.js.map",
+    "972.01a2703c.chunk.css.map": "/somos_mas-ALKEMY/static/css/972.01a2703c.chunk.css.map",
+    "972.89a1e6fd.chunk.js.map": "/somos_mas-ALKEMY/static/js/972.89a1e6fd.chunk.js.map",
     "36.e0d387d0.chunk.js.map": "/somos_mas-ALKEMY/static/js/36.e0d387d0.chunk.js.map",
     "710.5e8662f6.chunk.js.map": "/somos_mas-ALKEMY/static/js/710.5e8662f6.chunk.js.map",
     "259.66292794.chunk.js.map": "/somos_mas-ALKEMY/static/js/259.66292794.chunk.js.map",
@@ -81,6 +81,6 @@
   },
   "entrypoints": [
     "static/css/main.4a3a1210.css",
-    "static/js/main.432f8434.js"
+    "static/js/main.95a210a2.js"
   ]
 }
