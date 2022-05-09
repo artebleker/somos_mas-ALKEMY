@@ -1,0 +1,46 @@
+.campaign__school--header {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 75px;
+	width: 100%;
+	background: var(--primary);
+	padding: 0 20px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.campaign__school--header h1 {
+	color: var(--secondary);
+	font-family: var(--fontTitle);
+}
+.campaign__school--header img:first-child ~ :is(h1, img) {
+	display: none;
+}
+.campaign__school--header img:last-child {
+	height: 130%;
+}
+.campaign__school--header img:first-child {
+	height: 70%;
+}
+
+@media screen and (min-width: 480px) {
+	.campaign__school--header img:first-child ~ :is(img) {
+		display: inherit;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.campaign__school--header img:first-child ~ :is(h1) {
+		display: inherit;
+	}
+	.campaign__school--header {
+		justify-content: space-between;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	.campaign__school--header {
+		justify-content: space-evenly;
+		background: #e0d7a3b7;
+	}
+}

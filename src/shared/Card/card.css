@@ -1,0 +1,47 @@
+.cardBody{
+    width: 20%;
+    max-width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    box-shadow: 4px 8px 40px rgba(0, 0, 0, 0.49);
+    border-radius: 10px;
+    background-color: white;
+    }
+    
+    .cardBody:hover{
+        border: 3px solid #214763;
+    }
+    .cardImage{
+       max-height: 167px;
+    }
+    
+    .cardImage, .cardImage-noImage{
+        text-align: center;
+        width: 250px;
+       height: 167px;
+        top: 0px;
+        background-color: #214763;
+        border-radius: 10px 10px 0px 0px;
+        color: white;
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .cardTitle{
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        font-weight:600;
+        font-size: 18px;
+        margin: 20px 20px 5px;
+        text-align: left;
+    }
+    .cardDescription{
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        font-weight:400;
+        font-size: 14px;
+        margin: 5px 20px;
+        text-align: left;
+        
+    }

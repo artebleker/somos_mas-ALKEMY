@@ -1,0 +1,46 @@
+.campaign__toys--header {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 75px;
+	width: 100%;
+	background: var(--primary);
+	padding: 0 20px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.campaign__toys--header h1 {
+	color: var(--secondary);
+	font-family: var(--fontTitle);
+}
+.campaign__toys--header img:first-child ~ :is(h1, img) {
+	display: none;
+}
+.campaign__toys--header img:last-child {
+	height: 130%;
+}
+.campaign__toys--header img:first-child {
+	height: 70%;
+}
+
+@media screen and (min-width: 480px) {
+	.campaign__toys--header img:first-child ~ :is(img) {
+		display: inherit;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.campaign__toys--header img:first-child ~ :is(h1) {
+		display: inherit;
+	}
+	.campaign__toys--header {
+		justify-content: space-between;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	.campaign__toys--header {
+		justify-content: space-evenly;
+		background: #e0d7a3b7;
+	}
+}

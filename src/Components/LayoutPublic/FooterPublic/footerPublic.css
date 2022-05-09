@@ -1,0 +1,83 @@
+.footer-public {
+	background-color: white;
+	width: 100%;
+	place-content: center;
+	border-top: 3px solid var(--primary);
+	background: var(--primary);
+}
+.nav-footer-logo {
+	height: 20vh;
+	width: auto;
+}
+
+.nav-footer {
+	grid-gap: 20px;
+	padding: 0 20px;
+	display: grid;
+	justify-items: center;
+	align-items: center;
+	justify-content: space-evenly;
+	grid-template-columns: repeat(3, 1fr);
+}
+.nav-footer-links {
+	list-style: none;
+	border: solid 1px #214763;
+	padding: 10px;
+	border-radius: 10px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+}
+
+.footer-link a {
+	text-decoration: none;
+	font-family: 'Raleway', sans-serif;
+	color: #214763;
+}
+
+.nav-footer-socialMedia {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding: 0;
+}
+
+.footer-socialMedia a {
+	text-decoration: none;
+	display: grid;
+	place-items: center;
+	width: 40px;
+	height: 40px;
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+	background: var(--secondary);
+	color: var(--primary);
+	margin: 10px;
+	border-radius: 50%;
+	border: 2px solid transparent;
+	transition: 0.2s ease-in-out;
+}
+.nav-footer-socialMedia li:first-child svg {
+	padding-bottom: 2px;
+	font-size: 32px;
+}
+.footer-socialMedia a:hover {
+	background: var(--primary);
+	color: var(--secondary);
+	border: 2px solid var(--secondary);
+}
+.footer-address {
+	font-family: 'Raleway', sans-serif;
+	margin: 10px;
+	font-size: 12px;
+}
+@media (max-width: 1025px) {
+	.nav-footer {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(3, auto);
+		place-items: center;
+		gap: 0px;
+	}
+}

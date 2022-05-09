@@ -1,0 +1,38 @@
+.news {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	row-gap: 30px;
+	align-items: center;
+	width: 100%;
+	color: #214763;
+}
+.news h1 {
+	margin: 0px;
+}
+.news p {
+	margin: 5px 0;
+	font-size: 12px;
+}
+.news header {
+	font-size: x-large;
+	font-weight: 600;
+}
+.news svg {
+	padding: 0;
+}
+
+.news__container img {
+	width: 100%;
+	max-width: 800px;
+	object-fit: cover;
+	margin-bottom: 20px;
+}
+
+.news__container {
+	width: 100%;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+}

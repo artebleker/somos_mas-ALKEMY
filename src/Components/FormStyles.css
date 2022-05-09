@@ -1,0 +1,117 @@
+.form__section {
+	width: 100%;
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+	background: var(--secondary);
+}
+.form__backoffice {
+	min-height: calc(100vh - 80px);
+}
+.form-container {
+	display: grid;
+	width: 60vw;
+	min-width: fit-content;
+	max-width: 600px;
+	background: white;
+	border-radius: 5px;
+	padding: 30px 40px;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.form-container > header {
+	font-size: 28px;
+	font-family: var(--fontTitle);
+	text-align: center;
+	margin-bottom: 15px;
+	color: var(--secondary);
+}
+.input__container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-bottom: 22px;
+	box-sizing: border-box;
+	row-gap: 5px;
+}
+.input__container p {
+	margin: 0;
+}
+.input__container label {
+	font-size: 14px;
+	font-family: var(--fontShortText);
+}
+.input-field {
+	width: 100%;
+	padding: 15px 30px;
+	border: 1px solid #c1c1c1;
+	box-sizing: border-box;
+}
+
+.input-file {
+	width: fit-content;
+	border: 2px solid #387099;
+	color: #387099;
+	background: white;
+	font-weight: 500;
+	padding: 5px 8px;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+.input-file:hover {
+	background: #387099;
+	color: white;
+}
+.input-file input[type='file'] {
+	visibility: hidden;
+	width: 0;
+}
+.select-field {
+	padding: 10px;
+	border: 1px solid #c1c1c1;
+}
+.button__location {
+	border: none;
+	padding: 8px 0;
+	cursor: pointer;
+	width: 100%;
+}
+.submit-btn {
+	background-color: var(--secondary);
+	padding: 15px 15px;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	font-family: var(--fontShortText);
+}
+
+.submit-btn:hover {
+	cursor: pointer;
+	background-color: #387099;
+}
+
+.preview-img {
+	width: 30vh;
+	align-self: center;
+}
+.terms-condicion-button {
+	margin: 0;
+}
+.terms-condicion-button:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.error-message-form,
+.input-error {
+	color: red;
+	left: 0;
+	bottom: -15px;
+	font-size: 11px;
+	position: absolute;
+}
+
+.ck.ck-reset.ck-editor.ck-rounded-corners {
+	width: 99%;
+}

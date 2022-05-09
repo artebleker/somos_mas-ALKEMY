@@ -1,0 +1,22 @@
+.btn-regresar{
+    background-color: var(--secondary);
+    border: 1px solid var(--secondary);
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .3s ease-in ;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+.btn-regresar:hover{
+    background-color: transparent;
+    color: var(--secondary);
+    font-weight: bolder;
+}

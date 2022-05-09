@@ -1,0 +1,29 @@
+.socialnet_container {
+	background-color: rgb(247, 245, 245);
+}
+
+.socialnet_title {
+	padding: 10px;
+	font-family: var(--fontSubTitle);
+}
+
+.socialnet_container-icons {
+	display: flex;
+	justify-content: space-around;
+	margin: 25px 0 25px 0;
+}
+
+.socialnet_container-icons a {
+	font-size: 2.5em;
+	color: var(--secondary);
+	transition: color 0.5s;
+}
+
+.socialnet_container-icons a:hover {
+	color: #387199;
+}
+.socialnet_iconslist {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}

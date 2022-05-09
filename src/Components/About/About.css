@@ -1,0 +1,22 @@
+.nosotros_showtitle {
+	text-align: center;
+}
+
+.nosotros_showtitle img {
+	width: 40%;
+	height: auto;
+}
+
+.nosotros_description {
+	text-align: center;
+	background: rgba(190, 190, 190, 0.25);
+	box-shadow: 0 8px 32px 0 rgba(12, 18, 88, 0.37);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	margin: 5%;
+}
+
+.nosotros_container-members {
+	text-align: center;
+	border-top: 1px solid black;
+}

@@ -1,0 +1,47 @@
+/* ContactForm */
+
+.contactform_container {
+	border: 1px solid black;
+	padding: 30px;
+	margin: 10%;
+	box-shadow: 0 8px 32px 0 rgba(54, 54, 54, 0.37);
+	background: rgba(255, 255, 255, 0.25);
+	border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* DataContact */
+
+.datacontact_container li {
+	list-style: none;
+	text-decoration: none;
+}
+
+.datacontact_container {
+	border-bottom: 1px solid rgba(15, 15, 15, 0.18);
+	border-top: 1px solid rgba(15, 15, 15, 0.18);
+	font-size: 1.2em;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background-color: rgb(240, 240, 240);
+}
+
+.datacontact_container a {
+	text-decoration: none;
+	color: black;
+	display: flex;
+	justify-content: center;
+}
+.datacontact_container li span {
+	font-size: 1.3em;
+	color: var(--tertiary);
+}
+
+.contact_showtitle img {
+	width: 100vw;
+	height: 250px;
+}
+
+.contact_showtitle h1 {
+	text-align: center;
+}

@@ -1,0 +1,39 @@
+.containerCard {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.37);
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	padding: 0 40px 20px 40px;
+	margin-top: 5%;
+}
+
+.title {
+	color: #a43750;
+}
+
+.containerDashboard {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	gap: 10px;
+	justify-items: center;
+}
+
+.btn {
+	border-radius: 5px;
+	width: 30px;
+	padding: 5px;
+	border: none;
+	cursor: pointer;
+	background-color: #214763;
+	color: white;
+}
+
+.btn:hover {
+	background-color: #316991;
+}
+
+.icon {
+	font-size: 6em;
+}
